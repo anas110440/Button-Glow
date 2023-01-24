@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 :root {
   --glow-color: hsl(186 100% 69%);
@@ -34,10 +34,11 @@ body {
   border-radius: 0.45em;
   background: none;
   perspective: 2em;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   font-weight: 900;
   letter-spacing: 1em;
+  text-align: center;
 
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
@@ -65,7 +66,7 @@ body {
 }
 
 .glowing-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -79,7 +80,7 @@ body {
 }
 
 .glowing-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -216,7 +217,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 1em;
   }
 }
